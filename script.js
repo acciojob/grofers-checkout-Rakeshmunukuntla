@@ -15,6 +15,7 @@ const getSum = () =>
 	
 	const table=document.querySelector('table');
 	const r = document.createElement("tr");
+	r.id="ans";
 	const totalcell=document.createElement("td");
 
 	totalcell.colSpan=2;
